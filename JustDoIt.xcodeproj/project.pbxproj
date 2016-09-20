@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D9113E1D913FFB005D789F /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D9113D1D913FFB005D789F /* UserDefaultsHelper.m */; };
+		11E34C7A1D8A25D400011749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E34C791D8A25D400011749 /* CoreGraphics.framework */; };
+		11E34C7D1D8A2AE100011749 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E34C7C1D8A2AE100011749 /* MyView.m */; };
+		11E34C801D8A3A6A00011749 /* MyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E34C7F1D8A3A6A00011749 /* MyImage.m */; };
 		11F441911D87C71500EC7459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F441901D87C71500EC7459 /* main.m */; };
 		11F441941D87C71500EC7459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F441931D87C71500EC7459 /* AppDelegate.m */; };
 		11F441971D87C71500EC7459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F441961D87C71500EC7459 /* ViewController.m */; };
@@ -16,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11D9113C1D913FFB005D789F /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
+		11D9113D1D913FFB005D789F /* UserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsHelper.m; sourceTree = "<group>"; };
+		11E34C791D8A25D400011749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11E34C7B1D8A2AE100011749 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		11E34C7C1D8A2AE100011749 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		11E34C7E1D8A3A6A00011749 /* MyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImage.h; sourceTree = "<group>"; };
+		11E34C7F1D8A3A6A00011749 /* MyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImage.m; sourceTree = "<group>"; };
 		11F4418C1D87C71500EC7459 /* JustDoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F441901D87C71500EC7459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11F441921D87C71500EC7459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E34C7A1D8A25D400011749 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,13 @@
 				11F441931D87C71500EC7459 /* AppDelegate.m */,
 				11F441951D87C71500EC7459 /* ViewController.h */,
 				11F441961D87C71500EC7459 /* ViewController.m */,
+				11E34C7B1D8A2AE100011749 /* MyView.h */,
+				11E34C7C1D8A2AE100011749 /* MyView.m */,
+				11E34C7E1D8A3A6A00011749 /* MyImage.h */,
+				11E34C7F1D8A3A6A00011749 /* MyImage.m */,
+				11D9113C1D913FFB005D789F /* UserDefaultsHelper.h */,
+				11D9113D1D913FFB005D789F /* UserDefaultsHelper.m */,
+				11E34C791D8A25D400011749 /* CoreGraphics.framework */,
 				11F441981D87C71500EC7459 /* Main.storyboard */,
 				11F4419B1D87C71500EC7459 /* Assets.xcassets */,
 				11F4419D1D87C71500EC7459 /* LaunchScreen.storyboard */,
@@ -149,6 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E34C7D1D8A2AE100011749 /* MyView.m in Sources */,
+				11E34C801D8A3A6A00011749 /* MyImage.m in Sources */,
+				11D9113E1D913FFB005D789F /* UserDefaultsHelper.m in Sources */,
 				11F441971D87C71500EC7459 /* ViewController.m in Sources */,
 				11F441941D87C71500EC7459 /* AppDelegate.m in Sources */,
 				11F441911D87C71500EC7459 /* main.m in Sources */,
@@ -300,6 +322,7 @@
 				11F441A51D87C71500EC7459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

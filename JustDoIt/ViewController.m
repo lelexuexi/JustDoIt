@@ -7,17 +7,38 @@
 //
 
 #import "ViewController.h"
+#import "MyView.h"
+#import "MyImage.h"
 
 @interface ViewController ()
 
 @end
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    MyView  *My = [[MyView alloc]initWithFrame: CGRectMake(50, 50, 100, 100)];
+    
+    
+    [self.view addSubview:My];
+    
+    [My setNeedsDisplay];
+    
+    
+    
+    MyImage  *MyI = [[MyImage alloc]initWithFrame: CGRectMake(50, 200, 200, 200)];
+    
+    [self.view addSubview:MyI];
+    
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
